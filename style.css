@@ -1,0 +1,64 @@
+/* ==========================================================================
+   ETERNAL BEAUTY — CUSTOM STYLES & OVERRIDES (ROSE ELEGANCE THEME)
+   ========================================================================== */
+
+/* Fundaluri cu gradient soft roz */
+.bg-rose-gradient {
+  background: linear-gradient(135deg, #fdf2f4 0%, #fbe5e9 50%, #f4ede8 100%);
+}
+
+.bg-rose-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(242, 168, 183, 0.3);
+}
+
+/* Efecte de strălucire și borduri Rose Gold */
+.border-rosegold {
+  border-color: rgba(183, 110, 121, 0.25);
+}
+
+.shadow-rose {
+  box-shadow: 0 20px 40px -15px rgba(224, 79, 114, 0.15);
+}
+
+.shadow-rose-lg {
+  box-shadow: 0 25px 50px -12px rgba(120, 31, 56, 0.18);
+}
+
+/* Stele de rating cu ton roz-auriu */
+.stars .star {
+  width: 18px;
+  height: 18px;
+  fill: #e8dbd1;
+  transition: fill 0.2s ease;
+}
+.stars .star.is-filled {
+  fill: #e04f72;
+}
+
+/* Animație subtilă pentru imagini la hover */
+.img-hover-zoom {
+  overflow: hidden;
+}
+.img-hover-zoom img {
+  transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.img-hover-zoom:hover img {
+  transform: scale(1.05);
+}
+
+/* Custom Scrollbar în nuanțe de roz */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #faf7f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #f2a8b7;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e04f72;
+}
